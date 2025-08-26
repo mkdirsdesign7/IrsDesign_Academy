@@ -173,6 +173,7 @@ i {
   .navbar {
     height: auto !important;
     padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
   }
 
   .navbar-collapse {
