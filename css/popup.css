@@ -8,12 +8,13 @@
 }
 
 .popup-box {
-  background: black;
+  background: rgba(255, 255, 0, 0.295);
   color: #fff;
   border-radius: 30px;
   padding: 40px;
   position: relative;
   border: none;
+  backdrop-filter: blur(6px);
 }
 
 .popup-close {
