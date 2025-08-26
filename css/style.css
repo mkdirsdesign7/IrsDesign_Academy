@@ -232,6 +232,12 @@ i {
 }
 
 
+@media screen and (max-width:1120px) {
+  .navbar-form{
+    display: none !important;
+  }
+}
+
 /* ================================
             Hero Section Area 
 =================================== */
