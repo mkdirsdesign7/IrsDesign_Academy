@@ -200,7 +200,7 @@
 
 
 @media screen and (max-width:576px) {
-    .all-courses .container #courseSearch {
+    .all-courses .container #searchinput {
         display: none !important;
     }
 }
