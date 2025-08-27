@@ -204,7 +204,7 @@
         display: none !important;
     }
 
-    .all-courses .container{
+    .all-courses .container .filterarea{
         display: flex;
         justify-content: center !important;
         flex-direction: column !important;
