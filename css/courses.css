@@ -204,6 +204,7 @@
         display: none !important;
     }
 
+    .all-courses .container .coursecard-area,
     .all-courses .container .filterarea{
         width: 100% !important;
         display: flex;
@@ -212,9 +213,6 @@
         align-items: center !important;
     }
 
-    .all-courses .container .coursecard-area{
-        width: 100% !important;
-    }
 }
 
 /* ===============OUR TESTIMONIAL SECTION ============== */
