@@ -215,6 +215,10 @@
         align-items: center !important;
     }
 
+    .coursecard-area .course-card{
+        width: 100% !important;
+    }
+
 }
 
 /* ===============OUR TESTIMONIAL SECTION ============== */
