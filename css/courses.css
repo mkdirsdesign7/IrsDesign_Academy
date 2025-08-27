@@ -194,8 +194,8 @@
 
 
 @media screen and (max-width:991px) {
-    .all-courses .container .row {
-        justify-content: center !important;
+    .all-courses .container #courseSearch {
+        display: none !important;
     }
 }
 
