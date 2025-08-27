@@ -192,13 +192,13 @@
     margin-left: 6px;
 }
 
-@media screen and (max-width:991px) {
+/* @media screen and (max-width:991px) {
     .all-courses .container .coursecard-area {
         display: flex;
         justify-content: center !important;
         flex-direction: column !important;
     }
-}
+} */
 
 
 @media screen and (max-width:576px) {
