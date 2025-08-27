@@ -193,6 +193,12 @@
 }
 
 
+@media screen and (max-width:991px) {
+    .all-courses .container {
+        justify-content: center !important;
+    }
+}
+
 /* ===============OUR TESTIMONIAL SECTION ============== */
 
 .testimonial-section{
