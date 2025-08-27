@@ -192,6 +192,12 @@
     margin-left: 6px;
 }
 
+@media screen and (max-width:991px) {
+    .all-courses .container .row {
+        justify-content: center !important;
+    }
+}
+
 
 @media screen and (max-width:576px) {
     .all-courses .container #courseSearch {
