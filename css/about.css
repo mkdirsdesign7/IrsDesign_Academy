@@ -119,6 +119,7 @@
 /* Image Collage */
 .image-collage {
   position: relative;
+  border: 1px solid red;
 }
 
 /* Main Image */
