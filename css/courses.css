@@ -193,8 +193,10 @@
 }
 
 @media screen and (max-width:991px) {
-    .all-courses .container .row {
+    .all-courses .container .coursecard-area {
+        display: flex;
         justify-content: center !important;
+        flex-direction: column !important;
     }
 }
 
