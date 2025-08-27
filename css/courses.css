@@ -203,6 +203,13 @@
     .all-courses .container #searchinput {
         display: none !important;
     }
+
+    .all-courses .container{
+        display: flex;
+        justify-content: center !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
 }
 
 /* ===============OUR TESTIMONIAL SECTION ============== */
