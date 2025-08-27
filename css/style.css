@@ -651,6 +651,12 @@ i {
   }
 }
 
+@media (max-width:576px) {
+  .course-card {
+    width: 100% !important;
+  }
+}
+
 
 
 
