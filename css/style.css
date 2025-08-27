@@ -233,7 +233,7 @@ i {
 
 
 @media screen and (max-width:1120px) {
-  .navbar-form{
+  #navbar-form{
     display: none !important;
   }
 }
