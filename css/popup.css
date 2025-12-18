@@ -1,0 +1,75 @@
+
+:root {
+  --primary-color: #FCDD06;
+  --secondary-color: #FBA919;
+  --third-color: #efda20;
+  --white-color: #ffff;
+  --black-color: #0000;
+}
+
+.popup-box {
+  background: var(--secondary-color);
+  color: #fff;
+  border-radius: 30px;
+  padding: 40px;
+  position: relative;
+  border: none;
+}
+
+.popup-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  filter: invert(1);
+}
+
+.popup-header img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.popup-header p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.popup-form label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.popup-form i {
+  margin-right: 6px;
+}
+
+.popup-form input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255,255,255,0.5);
+  padding: 8px 0;
+  color: #fff;
+  outline: none;
+}
+
+.popup-form input::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+.captcha-box {
+  background: #fff;
+  padding: 15px;
+  width: fit-content;
+  border-radius: 5px;
+  color: #000;
+}
+
+.submit-btn {
+  background: #fbff00;
+  border: none;
+  color: black;
+  padding: 12px 40px;
+  border-radius: 30px;
+  font-weight: 600;
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IrsDesign Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./../img/favicon.png" type="image/x-icon">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./../css/gallary.css">
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+
+<body>
+
+
+    <!-- header section start -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./../img/logo.png" alt="academy-logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="./../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./../pages/about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./../pages/courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./../pages/placement.html">Placement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./../pages/blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./../pages/gallary.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./../pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control border-2 border-warning border me-2" type="search"
+                            placeholder="Search" aria-label="Search" />
+                        <button class="btn nav-btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- about us breadcum -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10 text-center about-content">
+                    <h2>Our Gallery</h2>
+                    <p>
+                        Join our community of learners and start your<br class="d-none d-md-block">
+                        journey towards success.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Photo Gallery Section -->
+    <section class="photo-gallery py-5">
+        <div class="container">
+
+            <div class="text-center mb-4">
+                <button class="btn bg-warning rounded-pill px-4">Photo Gallery</button>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Image Card -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="gallery-card">
+                        <img src="./../img/student/student1.jpg" class="gallery-img" alt="Gallery Image">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="gallery-card">
+                        <img src="./../img/student/student7.jpg" class="gallery-img" alt="Gallery Image">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="gallery-card">
+                        <img src="./../img/student/student3.jpg" class="gallery-img" alt="Gallery Image">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="gallery-card">
+                        <img src="./../img/student/student8.jpg" class="gallery-img" alt="Gallery Image">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="gallery-card">
+                        <img src="./../img/student/student5.jpg" class="gallery-img" alt="Gallery Image">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="gallery-card">
+                        <img src="./../img/student/student6.jpg" class="gallery-img" alt="Gallery Image">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-center mt-5">
+                <button class="view-btn">View More <i class="fa-solid fa-angles-right"></i></button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Image Popup Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-body text-center">
+                    <img src="" id="modalImage" class="img-fluid rounded-4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer Section start -->
+
+    <footer class="footer">
+        <div class="footer-grid">
+
+            <!-- BRAND -->
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="./../img/logo.png" alt="footer-logo">
+                </div>
+                <p>
+                    Unlock your potential with Kursol – your gateway to expert-led
+                    courses across diverse fields. Start learning today and shape
+                    your future!
+                </p>
+
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- RESOURCE -->
+            <div class="footer-links">
+                <h4>Resource</h4>
+                <ul>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Technology & Programming</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Creative Arts & Design</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Business & Entrepreneurship</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Personal Development</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Languages & Communication</a></li>
+                </ul>
+            </div>
+
+            <!-- SUPPORT -->
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Help Center</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">My Account</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Ticket Support</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+
+            <!-- COMPANY -->
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">About us</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Leadership</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Careers</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Article & News</a></li>
+                    <li><i class="fa-solid fa-forward"></i><a href="#">Legal notices</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- BOTTOM BAR -->
+        <div class="footer-bottom">
+            <p>Copyright ©2025 Kursol, All rights reserved. Powered by IrsDesign.</p>
+            <div class="policy">
+                <a href="#">Term of use</a>
+                <span>|</span>
+                <a href="#">Privacy Policy</a>
+                <span>|</span>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const galleryImages = document.querySelectorAll(".gallery-img");
+            const modalImage = document.getElementById("modalImage");
+            const imageModal = new bootstrap.Modal(document.getElementById("imageModal"));
+
+            galleryImages.forEach(img => {
+                img.addEventListener("click", function () {
+                    modalImage.src = this.src;
+                    imageModal.show();
+                });
+            });
+        });
+    </script>
+    <script src="./../js/main.js"></script>
+    <!-- bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
